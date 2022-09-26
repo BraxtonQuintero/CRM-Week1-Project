@@ -15,6 +15,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } 
+  .myRightCtn {
+    position: relative;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+   
+    font-size: 12px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .myLeftCtn {
     position: relative;
     background: #fff;
@@ -23,20 +34,7 @@
     padding: 25px;
     padding-left: 50px;
   }
-.clip-me{
-  clip-path: circle(50% at 20% 48%);}
-  
-  .myRightCtn {position: relative;
-    border-radius: 25px;
-    height: 100%;
-    padding: 25px;
-    font-size: 12px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .myRightCtn header {
+  .myLeftCtn header {
     color: #000000;
     font-size: 34px;
     font-weight: 700;
@@ -51,55 +49,40 @@
     height: 100%;
     border-radius: 25px;
   } 
-
-  
-  .myRightCtn .myInput {
-    width: 200px;
+  .myRightCtn header {
+    color: #fff;
+    font-size: 44px;
+  }
+  .box {
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+  } 
+  .myLeftCtn .myInput {
+    width: 230px;
     border-radius: 25px;
     padding: 10px;
-    padding-left: 60px;
+    padding-left: 50px;
     border: none;
     box-shadow: 0px 10px 49px -14px;
   }
-  
   .myForm {
     position: relative;
     margin-top: 20px;
   } 
-  .myRightCtn .butt {
+  .myLeftCtn .butt {
     background: linear-gradient(45deg, #0650F8, #0650F8);
     color: #fff;
-    width: 200px;
+    width: 230px;
     border: none;
     border-radius: 25px;
     padding: 10px;
-    margin-top: 20px;
     
     
   } 
-  .myRightCtn .butt:hover {
+  .myLeftCtn .butt:hover {
     background: linear-gradient(45deg, #000000, #0650F8);
   }
- 
-  
-
-
-  .para{margin-top: 20px;}
-
-  .icons{text-align: center;
-    margin: 20px;}
-  
-  .iconfacebook{margin: 10px;
-          padding: 10px; }
-  
-  .icontwitter{margin: 10px;
-      padding: 10px; }
-  .iconlinkedin{margin: 10px;
-  padding: 10px;}
-  .icongoogle{margin: 10px;
-    padding: 10px;}
-
-  
   .icons{text-align: center;
     margin: 20px;}
   
