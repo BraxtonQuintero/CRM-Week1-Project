@@ -1,114 +1,136 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+img {
+  height: 95vh;
+  position: relative;
+}
+.myLeftCtn .butt {background: linear-gradient(45deg, #0650F8, black);
+  color: #fff;
+  width: 150px;
+  border-color: white;
+  border-radius: 25px;
+  padding: 5px;
+  margin-top: 20px;}
+
+
+
+.screen-text {text-align: center;
+  position: absolute;
+  color: white;
+  top: 14vh;
+  left: 15vh;
+  z-index: 1;
+}
+
+h1{
+  font-size: 4vh;
+}
+.img-thumbnail {background-color: transparent;
+  border: 0;
   }
-  body {
-    background: #ffffff;
-  } 
-  .container {
-    position: absolute;
-    max-width: 800px;
-    height: 500px;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
-  .myLeftCtn {
-    position: relative;
-    background: #fff;
-    border-radius: 25px;
-    height: 100%;
-    padding: 25px;
-    padding-left: 50px;
-  }
-.clip-me{
-  clip-path: circle(50% at 20% 48%);}
+
+#signingin{background-color: #0650F8;
+  clip-path: ellipse(76% 48% at 25% 52%);
+  position: absolute;
   
-  .myRightCtn {position: relative;
-    border-radius: 25px;
-    height: 100%;
-    padding: 25px;
-    font-size: 12px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .myRightCtn header {
-    color: #000000;
-    font-size: 34px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .row{
+}
+#container {
+  position: relative;
+  width: 100%; 
+  clip-path: ellipse(76% 48% at 25% 52%);
+}
+
+.myLeftCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
   height: 100%;
-  } 
-  .myCard {
-    position: relative;
-    background: #fff;
-    height: 100%;
-    border-radius: 25px;
-  } 
+  padding: 25px;
+  padding-left: 50px;
+}
+.clip-me{
+clip-path: circle(50% at 20% 48%);}
 
+.myRightCtn {position: relative;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  font-size: 12px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  .myRightCtn .myInput {
-    width: 200px;
-    border-radius: 25px;
-    padding: 10px;
-    padding-left: 60px;
-    border: none;
-    box-shadow: 0px 10px 49px -14px;
-  }
-  
-  .myForm {
-    position: relative;
-    margin-top: 20px;
-  } 
-  .myRightCtn .butt {
-    background: linear-gradient(45deg, #0650F8, #0650F8);
-    color: #fff;
-    width: 200px;
-    border: none;
-    border-radius: 25px;
-    padding: 10px;
-    margin-top: 20px;
-    
-    
-  } 
-  .myRightCtn .butt:hover {
-    background: linear-gradient(45deg, #000000, #0650F8);
-  }
- 
-  
+}
+.myRightCtn header {
+  color: #000000;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.row{
+height: 100%;
+} 
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 25px;
+} 
 
 
-  .para{margin-top: 20px;}
+.myRightCtn .myInput {
+  width: 200px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 60px;
+  border: none;
+  box-shadow: 0px 10px 49px -14px;
+}
 
-  .icons{text-align: center;
-    margin: 20px;}
+.form-group{margin-bottom: 20px;}
+
+.myForm {
+  position: relative;
+  margin-top: 20px;
+} 
+.myRightCtn .butt {
+  background: linear-gradient(45deg, #0650F8, #0650F8);
+  color: #fff;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 20px;
   
-  .iconfacebook{margin: 10px;
-          padding: 10px; }
   
-  .icontwitter{margin: 10px;
-      padding: 10px; }
-  .iconlinkedin{margin: 10px;
+} 
+.myRightCtn .butt:hover {
+  background: linear-gradient(45deg, #000000, #0650F8);
+}
+
+
+
+
+.para{margin-top: 20px;}
+
+.icons{display: flex;
+  text-align: right;
+  height: 100px;
+  width: 200px;
+  margin-left: 950px;}
+
+.iconfacebook{margin: 10px;
+        padding: 10px; }
+
+.icontwitter{margin: 10px;
+    padding: 10px; }
+.iconlinkedin{margin: 10px;
+padding: 10px;}
+.icongoogle{margin: 10px;
   padding: 10px;}
-  .icongoogle{margin: 10px;
-    padding: 10px;}
 
-  
-  .icons{text-align: center;
-    margin: 20px;}
-  
-  .iconfacebook{margin: 10px;
-          padding: 10px; }
-  
-  .icontwitter{margin: 10px;
-      padding: 10px; }
-  .iconlinkedin{margin: 10px;
-  padding: 10px;}
-  .icongoogle{margin: 10px;
-    padding: 10px;}
+
+
